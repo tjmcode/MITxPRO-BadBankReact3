@@ -129,7 +129,7 @@ function BankCard(props)
     return (
         <div className={bootstrapCard()} style={{maxWidth: props.width}}>
 
-            <div className="card-header">{props.header}</div>
+            <div className="card-header"><b><h4>{props.header}</h4></b></div>
 
             <div className="card-body">
                 {props.title && (<h5 className="card-title">{props.title}</h5>)}
